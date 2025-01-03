@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="YourControllerClass">
+    <children>
+        <Button text="Upload Image" onAction="#uploadImage" />
+        <ImageView fx:id="currentFrame" layoutX="50" layoutY="100" />
+    </children>
+</AnchorPane>
